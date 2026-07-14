@@ -1,0 +1,259 @@
+.reports {
+
+    background: #f5f7fb;
+
+    min-height: 100vh;
+
+    padding: 30px;
+
+}
+
+
+
+.reports h1 {
+
+    color: #2c3e50;
+
+    font-size: 34px;
+
+    font-weight: bold;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+.reports h3 {
+
+    color: #2c3e50;
+
+    font-weight: 600;
+
+}
+
+
+
+/* Cards */
+
+.report-cards {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 25px;
+
+    margin-bottom: 40px;
+
+}
+
+
+
+.report-card {
+
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+
+    transition: all 0.3s ease;
+
+}
+
+
+
+.report-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 12px 28px rgba(0,0,0,0.18);
+
+}
+
+
+
+.report-card h3 {
+
+    font-size: 18px;
+
+    color: #666;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.report-card p {
+
+    font-size: 34px;
+
+    font-weight: bold;
+
+    color: #11998e;
+
+    margin: 0;
+
+}
+
+
+
+
+
+/* Table Cards */
+
+.table-card {
+
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 25px;
+
+    margin-top: 35px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+
+}
+
+
+
+.table-card h3 {
+
+    margin-bottom: 20px;
+
+    color: #2c3e50;
+
+}
+
+
+
+
+
+/* Tables */
+
+.table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+
+.table thead {
+
+    background: linear-gradient(135deg,#11998e,#38ef7d);
+
+    color: white;
+
+}
+
+
+
+.table th {
+
+    padding: 15px;
+
+    text-align: center;
+
+    font-size: 15px;
+
+}
+
+
+
+.table td {
+
+    padding: 14px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #e6e6e6;
+
+}
+
+
+
+.table tbody tr:hover {
+
+    background: #f2fbfa;
+
+}
+
+
+
+
+
+/* Loading */
+
+.loading {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 80vh;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    color: #11998e;
+
+}
+
+
+
+
+
+/* Responsive */
+
+@media(max-width:992px){
+
+    .report-cards{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+
+@media(max-width:768px){
+
+    .report-cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .reports{
+
+        padding:20px;
+
+    }
+
+    .report-card p{
+
+        font-size:28px;
+
+    }
+
+    .table{
+
+        font-size:14px;
+
+    }
+
+}

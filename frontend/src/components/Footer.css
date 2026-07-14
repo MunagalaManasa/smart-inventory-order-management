@@ -1,0 +1,26 @@
+.footer {
+
+    text-align: center;
+
+    padding: 15px;
+
+    margin-top: 30px;
+
+    color: #6c757d;
+
+    border-top: 1px solid #ddd;
+
+    background: #ffffff;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+}
+
+
+.footer:hover {
+
+    color: #1e3c72;
+
+}

@@ -1,0 +1,319 @@
+.products-page {
+
+    margin-left:250px;
+
+    min-height:100vh;
+
+    padding:30px;
+
+    background:#f4f7fb;
+
+}
+
+
+
+
+.products-header {
+
+
+    display:flex;
+
+
+    justify-content:space-between;
+
+
+    align-items:center;
+
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+.products-header h2 {
+
+
+    color:#1e3c72;
+
+
+    font-size:32px;
+
+
+}
+
+
+
+
+
+.add-btn {
+
+
+    background:#1e3c72;
+
+
+    color:white;
+
+
+    border:none;
+
+
+    padding:12px 22px;
+
+
+    border-radius:12px;
+
+
+    font-size:16px;
+
+
+    cursor:pointer;
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+.add-btn:hover {
+
+
+    background:#2a5298;
+
+
+    transform:translateY(-2px);
+
+
+}
+
+
+
+
+
+.product-table-card {
+
+
+    background:white;
+
+
+    padding:25px;
+
+
+    border-radius:20px;
+
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,0.12);
+
+
+}
+
+
+
+
+
+
+
+.product-table {
+
+
+    width:100%;
+
+
+    border-collapse:collapse;
+
+
+}
+
+
+
+
+.product-table thead {
+
+
+    background:#1e3c72;
+
+
+    color:white;
+
+
+}
+
+
+
+
+
+.product-table th {
+
+
+    padding:14px;
+
+
+}
+
+
+
+
+
+.product-table td {
+
+
+    padding:14px;
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+
+.product-table tbody tr:hover {
+
+
+    background:#eef3ff;
+
+
+}
+
+
+
+
+
+
+
+.edit-btn {
+
+
+    background:#ffc107;
+
+
+    color:#333;
+
+
+    border:none;
+
+
+    padding:6px 14px;
+
+
+    border-radius:8px;
+
+
+    margin-right:8px;
+
+
+    cursor:pointer;
+
+
+}
+
+
+
+
+
+.delete-btn {
+
+
+    background:#dc3545;
+
+
+    color:white;
+
+
+    border:none;
+
+
+    padding:6px 14px;
+
+
+    border-radius:8px;
+
+
+    cursor:pointer;
+
+
+}
+
+
+
+
+
+.status-badge {
+
+
+    padding:6px 14px;
+
+
+    border-radius:20px;
+
+
+    color:white;
+
+
+    font-size:13px;
+
+
+    font-weight:bold;
+
+
+}
+
+
+
+
+.in-stock {
+
+
+    background:#28a745;
+
+
+}
+
+
+
+.low-stock {
+
+
+    background:#ffc107;
+
+
+    color:#333;
+
+
+}
+
+
+
+.out-stock {
+
+
+    background:#dc3545;
+
+
+}
+
+
+
+
+
+
+@media(max-width:900px){
+
+
+.products-page {
+
+
+    margin-left:0;
+
+
+}
+
+
+}

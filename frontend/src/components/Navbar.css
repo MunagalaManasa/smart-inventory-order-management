@@ -1,0 +1,158 @@
+.navbar {
+
+    height:80px;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:15px 30px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.brand-section {
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+.logo {
+
+    margin:0;
+
+    color:#1e3c72;
+
+    font-size:24px;
+
+}
+
+
+.subtitle {
+
+    margin:3px 0;
+
+    color:#777;
+
+    font-size:14px;
+
+}
+
+
+
+
+
+.user-section {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+
+
+.avatar {
+
+    width:45px;
+
+    height:45px;
+
+    border-radius:50%;
+
+    background:#1e3c72;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+}
+
+
+
+.user-info small {
+
+    color:#777;
+
+}
+
+
+.user-info h6 {
+
+    margin:0;
+
+    color:#333;
+
+}
+
+
+
+
+
+.logout-btn {
+
+
+    background:#dc3545;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 18px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+
+}
+
+
+
+.logout-btn:hover {
+
+
+    background:#bb2d3b;
+
+
+}
+
+
+
+
+
+@media(max-width:700px){
+
+
+    .navbar {
+
+        flex-direction:column;
+
+        height:auto;
+
+        gap:15px;
+
+    }
+
+
+}

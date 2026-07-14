@@ -1,0 +1,301 @@
+/* ===========================
+   Product Form Container
+=========================== */
+
+.product-form-card {
+
+    background: #ffffff;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+
+    margin-bottom: 30px;
+
+    animation: fadeIn 0.4s ease;
+
+}
+
+
+
+/* ===========================
+   Header
+=========================== */
+
+.product-form-header {
+
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+
+    color: white;
+
+    padding: 18px 25px;
+
+    border-radius: 15px;
+
+    margin-bottom: 30px;
+
+    text-align: center;
+
+}
+
+
+
+.product-form-header h4 {
+
+    margin: 0;
+
+    font-size: 26px;
+
+    font-weight: bold;
+
+}
+
+
+
+/* ===========================
+   Labels
+=========================== */
+
+.product-form-card label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    color: #444;
+
+}
+
+
+
+/* ===========================
+   Inputs
+=========================== */
+
+.product-form-card input,
+
+.product-form-card textarea,
+
+.product-form-card select {
+
+    width: 100%;
+
+    padding: 12px 15px;
+
+    border: 1px solid #dcdcdc;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    transition: all 0.3s ease;
+
+    margin-bottom: 18px;
+
+    background: #fafafa;
+
+}
+
+
+
+.product-form-card textarea {
+
+    resize: vertical;
+
+    min-height: 100px;
+
+}
+
+
+
+.product-form-card input:focus,
+
+.product-form-card textarea:focus,
+
+.product-form-card select:focus {
+
+    outline: none;
+
+    border-color: #11998e;
+
+    background: #ffffff;
+
+    box-shadow: 0 0 8px rgba(17,153,142,0.25);
+
+}
+
+
+
+/* ===========================
+   Buttons
+=========================== */
+
+.form-buttons {
+
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 20px;
+
+}
+
+
+
+.add-product-btn,
+
+.update-product-btn,
+
+.cancel-product-btn {
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+
+}
+
+
+
+/* Add Button */
+
+.add-product-btn {
+
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+
+    color: white;
+
+}
+
+
+
+.add-product-btn:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 15px rgba(17,153,142,0.35);
+
+}
+
+
+
+/* Update Button */
+
+.update-product-btn {
+
+    background: #ffc107;
+
+    color: #222;
+
+}
+
+
+
+.update-product-btn:hover {
+
+    background: #ffca2c;
+
+    transform: translateY(-2px);
+
+}
+
+
+
+/* Cancel Button */
+
+.cancel-product-btn {
+
+    background: #6c757d;
+
+    color: white;
+
+}
+
+
+
+.cancel-product-btn:hover {
+
+    background: #565e64;
+
+    transform: translateY(-2px);
+
+}
+
+
+
+/* ===========================
+   Animation
+=========================== */
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(15px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width: 768px) {
+
+    .product-form-card {
+
+        padding: 20px;
+
+    }
+
+    .product-form-header h4 {
+
+        font-size: 22px;
+
+    }
+
+    .form-buttons {
+
+        flex-direction: column;
+
+    }
+
+    .add-product-btn,
+
+    .update-product-btn,
+
+    .cancel-product-btn {
+
+        width: 100%;
+
+    }
+
+}

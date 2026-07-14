@@ -1,0 +1,366 @@
+.sidebar {
+
+
+    width:250px;
+
+    height:100vh;
+
+
+    position:fixed;
+
+
+    left:0;
+
+    top:0;
+
+
+    padding:25px 15px;
+
+
+    background:
+    linear-gradient(
+        180deg,
+        #1e3c72,
+        #2a5298
+    );
+
+
+    display:flex;
+
+    flex-direction:column;
+
+
+    box-shadow:
+    5px 0 15px rgba(0,0,0,0.2);
+
+
+    overflow-y:auto;
+
+}
+
+
+
+
+
+
+/* Logo */
+
+.sidebar-title {
+
+
+    color:white;
+
+
+    font-size:22px;
+
+
+    font-weight:bold;
+
+
+    text-align:center;
+
+
+    margin-bottom:25px;
+
+
+}
+
+
+.logo-icon {
+
+
+    margin-right:8px;
+
+
+}
+
+
+
+
+
+
+/* User Profile */
+
+
+.user-section {
+
+
+    text-align:center;
+
+
+    padding:15px 10px;
+
+
+    margin-bottom:25px;
+
+
+    border-top:1px solid rgba(255,255,255,0.25);
+
+
+    border-bottom:1px solid rgba(255,255,255,0.25);
+
+
+}
+
+
+
+.user-avatar {
+
+
+    width:50px;
+
+
+    height:50px;
+
+
+    margin:auto;
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    justify-content:center;
+
+
+    background:white;
+
+
+    border-radius:50%;
+
+
+    font-size:25px;
+
+
+}
+
+
+
+
+.welcome-text {
+
+
+    color:#dbeafe;
+
+
+    margin:10px 0 5px;
+
+
+    font-size:14px;
+
+
+}
+
+
+
+
+.user-email {
+
+
+    color:white;
+
+
+    font-size:14px;
+
+
+    word-break:break-word;
+
+
+    margin:0;
+
+
+}
+
+
+
+
+
+
+
+
+/* Menu */
+
+
+.sidebar-menu {
+
+
+    list-style:none;
+
+
+    padding:0;
+
+
+    margin:0;
+
+
+}
+
+
+
+
+
+.menu-link {
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    gap:12px;
+
+
+    padding:13px 15px;
+
+
+    margin-bottom:12px;
+
+
+    color:white;
+
+
+    text-decoration:none;
+
+
+    border-radius:12px;
+
+
+    transition:0.3s;
+
+
+    font-size:16px;
+
+
+}
+
+
+
+
+
+
+.menu-link:hover {
+
+
+    background:rgba(255,255,255,0.2);
+
+
+    transform:translateX(5px);
+
+
+}
+
+
+
+
+
+
+
+.menu-link.active {
+
+
+    background:white;
+
+
+    color:#1e3c72;
+
+
+    font-weight:bold;
+
+
+}
+
+
+
+
+
+
+.menu-icon {
+
+
+    font-size:20px;
+
+
+}
+
+
+
+
+
+
+
+
+/* Logout */
+
+
+.logout-btn {
+
+
+    margin-top:auto;
+
+
+    padding:12px;
+
+
+    border:none;
+
+
+    border-radius:12px;
+
+
+    background:#ff4b5c;
+
+
+    color:white;
+
+
+    font-size:16px;
+
+
+    cursor:pointer;
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+
+
+.logout-btn:hover {
+
+
+    background:#e63946;
+
+
+    transform:translateY(-2px);
+
+
+}
+
+
+
+
+
+
+
+/* Mobile */
+
+
+@media(max-width:768px){
+
+
+    .sidebar {
+
+
+        width:210px;
+
+
+    }
+
+
+}

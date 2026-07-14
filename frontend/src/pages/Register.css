@@ -1,0 +1,294 @@
+.register-container{
+
+
+    min-height:100vh;
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+
+    background:
+
+    linear-gradient(
+
+        135deg,
+
+        #1e3c72,
+
+        #2a5298
+
+    );
+
+
+}
+
+
+
+
+
+
+.register-card{
+
+
+    width:400px;
+
+
+    padding:40px;
+
+
+    background:white;
+
+
+    border-radius:25px;
+
+
+    box-shadow:
+
+    0 20px 40px rgba(0,0,0,0.25);
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+
+
+.register-logo{
+
+
+    width:70px;
+
+
+    height:70px;
+
+
+    margin:auto;
+
+
+    margin-bottom:15px;
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+    font-size:40px;
+
+
+    background:#1e3c72;
+
+
+    color:white;
+
+
+    border-radius:50%;
+
+
+}
+
+
+
+
+
+
+.register-card h1{
+
+
+    color:#1e3c72;
+
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+
+
+
+.register-card p{
+
+
+    color:#777;
+
+
+}
+
+
+
+
+
+
+
+.input-group{
+
+
+    text-align:left;
+
+
+    margin-bottom:18px;
+
+
+}
+
+
+
+
+
+
+
+.input-group label{
+
+
+    display:block;
+
+
+    font-weight:600;
+
+
+    margin-bottom:7px;
+
+
+}
+
+
+
+
+
+
+
+.input-group input,
+
+.input-group select{
+
+
+    width:100%;
+
+
+    padding:12px;
+
+
+    border-radius:10px;
+
+
+    border:1px solid #ccc;
+
+
+}
+
+
+
+
+
+
+.input-group input:focus,
+
+.input-group select:focus{
+
+
+    outline:none;
+
+
+    border-color:#1e3c72;
+
+
+}
+
+
+
+
+
+
+
+.register-card button{
+
+
+    width:100%;
+
+
+    padding:13px;
+
+
+    border:none;
+
+
+    border-radius:10px;
+
+
+    background:#1e3c72;
+
+
+    color:white;
+
+
+    font-size:17px;
+
+
+    font-weight:600;
+
+
+    cursor:pointer;
+
+
+}
+
+
+
+
+
+
+
+.register-card button:disabled{
+
+
+    background:#999;
+
+
+}
+
+
+
+
+
+
+
+.login-link{
+
+
+    margin-top:20px;
+
+
+}
+
+
+
+.login-link a{
+
+
+    color:#1e3c72;
+
+
+    font-weight:bold;
+
+
+    text-decoration:none;
+
+
+}

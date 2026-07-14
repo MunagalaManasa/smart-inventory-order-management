@@ -1,0 +1,300 @@
+.orders-page {
+
+    margin-left:250px;
+
+    min-height:100vh;
+
+    padding:30px;
+
+    background:#f4f7fb;
+
+}
+
+
+
+
+.orders-header {
+
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+.orders-header h2 {
+
+
+    font-size:32px;
+
+    color:#1e3c72;
+
+
+}
+
+
+
+
+
+
+.add-order-btn {
+
+
+    background:#1e3c72;
+
+    color:white;
+
+
+    border:none;
+
+
+    padding:12px 22px;
+
+
+    border-radius:12px;
+
+
+    font-size:16px;
+
+
+    cursor:pointer;
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+
+.add-order-btn:hover {
+
+
+    background:#2a5298;
+
+
+    transform:translateY(-2px);
+
+
+}
+
+
+
+
+
+
+
+.order-table-card {
+
+
+    background:white;
+
+
+    padding:25px;
+
+
+    border-radius:20px;
+
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,0.12);
+
+
+}
+
+
+
+
+
+
+
+.order-table {
+
+
+    width:100%;
+
+
+    border-collapse:collapse;
+
+
+}
+
+
+
+
+
+.order-table thead {
+
+
+    background:#1e3c72;
+
+
+    color:white;
+
+
+}
+
+
+
+
+
+.order-table th {
+
+
+    padding:14px;
+
+
+}
+
+
+
+
+
+.order-table td {
+
+
+    padding:14px;
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+
+.order-table tbody tr:hover {
+
+
+    background:#eef3ff;
+
+
+}
+
+
+
+
+
+
+
+.edit-btn {
+
+
+    background:#ffc107;
+
+
+    color:#333;
+
+
+    border:none;
+
+
+    padding:6px 14px;
+
+
+    border-radius:8px;
+
+
+    margin-right:8px;
+
+
+}
+
+
+
+
+
+.delete-btn {
+
+
+    background:#dc3545;
+
+
+    color:white;
+
+
+    border:none;
+
+
+    padding:6px 14px;
+
+
+    border-radius:8px;
+
+
+}
+
+
+
+
+
+.status-badge {
+
+
+    padding:6px 14px;
+
+
+    border-radius:20px;
+
+
+    font-size:13px;
+
+
+    font-weight:bold;
+
+
+}
+
+
+
+.completed {
+
+
+    background:#28a745;
+
+    color:white;
+
+
+}
+
+
+
+.updated {
+
+
+    background:#0d6efd;
+
+    color:white;
+
+
+}
+
+
+
+
+
+
+@media(max-width:900px){
+
+
+.orders-page {
+
+
+    margin-left:0;
+
+
+}
+
+
+}

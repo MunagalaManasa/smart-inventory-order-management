@@ -1,0 +1,171 @@
+.order-form-card {
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,0.12);
+
+    margin-bottom:25px;
+
+}
+
+
+
+
+.order-form-header {
+
+    background:linear-gradient(
+        135deg,
+        #1e3c72,
+        #2a5298
+    );
+
+    color:white;
+
+    padding:15px;
+
+    border-radius:15px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.order-form-header h4 {
+
+    margin:0;
+
+    font-size:24px;
+
+}
+
+
+
+
+.order-form-card label {
+
+    font-weight:600;
+
+    color:#333;
+
+}
+
+
+
+.order-form-card input,
+
+.order-form-card select {
+
+
+    height:45px;
+
+    border-radius:10px;
+
+    border:1px solid #ddd;
+
+    padding:10px;
+
+
+}
+
+
+
+
+.order-form-card input:focus,
+
+.order-form-card select:focus {
+
+
+    outline:none;
+
+    border-color:#2a5298;
+
+    box-shadow:
+    0 0 5px rgba(42,82,152,0.4);
+
+
+}
+
+
+
+
+
+.create-btn {
+
+
+    background:#198754;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 25px;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+
+}
+
+
+
+.create-btn:hover {
+
+    background:#157347;
+
+}
+
+
+
+
+
+.update-btn {
+
+
+    background:#ffc107;
+
+    color:#333;
+
+    border:none;
+
+    padding:10px 25px;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+
+}
+
+
+
+
+.cancel-btn {
+
+
+    background:#6c757d;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 25px;
+
+    border-radius:10px;
+
+
+}
+
+
+
+.cancel-btn:hover {
+
+    background:#5c636a;
+
+}
