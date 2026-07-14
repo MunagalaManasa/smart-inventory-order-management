@@ -72,7 +72,7 @@ A Full Stack Web Application developed using **Spring Boot**, **React**, **MySQL
 
 ## login
 
-![login](screenshots/login.png)
+![login](screenshots/Login.png)
 
 ---
 
