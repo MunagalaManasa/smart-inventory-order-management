@@ -82,15 +82,15 @@ A Full Stack Web Application developed using **Spring Boot**, **React**, **MySQL
 
 ---
 
-## Dashboard Products
+## Dashboard stock analysis
 
-![Dashboard Products](screenshots/dashboard-products.png)
+![Dashboard Products](screenshots/dashboard-stock-analysis.png)
 
 ---
 
-## Dashboard Orders
+## Dashboard Orders products
 
-![Dashboard Orders](screenshots/dashboard-orders.png)
+![Dashboard Orders](screenshots/dashboard-orders-products.png)
 
 ---
 
@@ -115,18 +115,6 @@ A Full Stack Web Application developed using **Spring Boot**, **React**, **MySQL
 ## Add Order
 
 ![Add Order](screenshots/add-order.png)
-
----
-
-## Product Search
-
-![Product Search](screenshots/search-product.png)
-
----
-
-## Order Search
-
-![Order Search](screenshots/search-order.png)
 
 ---
 
